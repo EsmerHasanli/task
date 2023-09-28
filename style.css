@@ -1,0 +1,115 @@
+/* 15 */
+
+
+/* zadayet stil tegu header */
+header{
+    background-color: bisque;
+}
+
+/* zadayet still classu header */
+.header{
+    color: blue;
+}
+
+/* zadayet stil elementu s unikalnim identifikatorom */
+#subheader{
+    text-align: center;
+}
+
+
+/* zadayet still vsem elementam */
+*{
+    color: darkblue;
+}
+
+/* zadayet still vsemu contentu v p */
+p{
+    padding: 100px;
+}
+
+
+/* zadayet still vsem p elementam s classom descr */
+p.descr{
+    text-align: right;
+}
+
+
+
+
+/* zadayet still i dlya footer i dlya ul */
+footer,ul{
+    background-color:aquamarine;
+}
+
+
+/* zadayet stili vsem a elementam vnutri classa div */
+div a{
+    background-color:white;
+    text-decoration: none;
+}
+
+
+/* zadayet stil p kotoriy idet srazu posle aside */
+aside+p{
+    background-color:darkkhaki;
+}
+
+
+/* zadayet stili vsem span elentam cey roditel aside */
+aside>span{
+    background-color: brown;
+}
+
+
+/* zadayet still  dlya vsex p iduwix posle ul */
+ul~p{
+    color: red;
+}
+
+/* zadali stil dlya a s value https://google.com */
+a[href^="https://google.com"]{
+    color:chocolate;
+}
+
+/* zadali stili dla vsex img s formatom .jpeg */
+img[src$=".jpeg"]{
+    padding-top: 40px;
+    height: 300px;
+    width:500px;
+}
+
+/* zadayet still dlya vsex elementov a soderjawix w3schools */
+a[href*="w3schools"]{
+    text-decoration: wavy;
+}
+
+/* zadayet still b kotoriy yavlayetsa pramim potomkom a */
+.a .b{
+    color:green;
+}
+
+/* zadali stili vsem elementam s atribotom src */
+[src]{
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+    width: 500px;
+    height: 300px;
+}
+
+/* zadayet stili vsem elementam s target _blank */
+[target="_blank"]{
+    color:antiquewhite;
+    background-color:grey;
+}
+
+/* zadayet stili vsem elementam s title ferrari */
+[title~="ferrari"]{
+    display: block;
+    margin: 300px;
+}
+
+vse elementi kotorie nacinayutsa na bo 
+[lang|="bo"]{
+    width: 400px;
+}
